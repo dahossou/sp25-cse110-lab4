@@ -30,3 +30,4 @@
 16.) Done in javascript file.
 17.) If the function is called with those parameters, modifyArray will return [2,4,6]. The reason being is that in the for loop after reading through the array, we push the callback function into a new array. The callback function multiplies each number in the array by 2 and returns it. So when we return newArr, we are left with each number multiplied by 2 in a new array.
 18.) Done in javascript file.
+19.) The output will be 1 4 3 2. The reason being is that at first it sees console.log(1) which will immediately print the 1. After, we see the delays between the setTimeouts of 2 and 3, so 4 will be printed and since 2 has a longer delay than 3, 3 is printed before 2. 
