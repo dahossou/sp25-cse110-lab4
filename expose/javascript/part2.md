@@ -27,4 +27,6 @@
 14.e) true == 2 is false. As a boolean true evaluates to 1, and 1 != 2 so it evaluates to false.
 14.f) true === Boolean(2) is true. Since true is a boolean value and we are using a reference to the Boolean class, they are of the same type so it evaluates to true.
 15. The == operator evluates whether or not the values are equal regardless of the primitive type used after conversion. The === operator evalutes whether or not the value and the type of the value are the exact same. 
-16.) 
+16.) Done in javascript file.
+17.) If the function is called with those parameters, modifyArray will return [2,4,6]. The reason being is that in the for loop after reading through the array, we push the callback function into a new array. The callback function multiplies each number in the array by 2 and returns it. So when we return newArr, we are left with each number multiplied by 2 in a new array.
+18.) Done in javascript file.
